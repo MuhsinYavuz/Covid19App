@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid19TrackingApplication</string>
+    <string name="hello_blank_fragment">Boş Fragment</string>
+    <string name="error">Hata!</string>
+    <string name="totalTest">Toplam test : </string>
+    <string name="totalDeath">Toplam ölüm : </string>
+    <string name="critical">Kritik hasta :</string>
+    <string name="newDeath">Yeni ölüm sayısı : </string>
+    <string name="activeCase">Aktif vaka :</string>
+    <string name="recovered">İyileşen hasta sayısı : </string>
+    <string name="welcomeApp">Covid 19 veri analizi</string>
+    <string name="loginMainScreen">İncele</string>
+    <string name="newCases">Yeni vaka sayısı : </string>
+    <string name="confirmedTests">Onaylanmış test : </string>
+    <string name="toHistory">Geçmiş veriler </string>
+    <string name="popTest">1 m insana oranı (test) :</string>
+    <string name="popCase">1 m insana oranı (vaka) :</string>
+    <string name="population">Nüfus :</string>
+    <string name="popDeath">1 m insana oranı (ölüm) :</string>
+    <string name="time">Zaman :</string>
+    <string name="chooselanguage">Dil Seçin</string>
+    <string name="statisticsdata"> istatik verileri : </string>
+
+</resources>

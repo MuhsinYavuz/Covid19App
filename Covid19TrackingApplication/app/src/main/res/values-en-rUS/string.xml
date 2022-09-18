@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Covid19TrackingApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error">Error!</string>
+    <string name="totalTest">Total test : </string>
+    <string name="totalDeath">Total death :</string>
+    <string name="critical">Critical ill : </string>
+    <string name="newDeath">Number of new death :</string>
+    <string name="activeCase">Active Case : </string>
+    <string name="recovered">Recovered : </string>
+    <string name="welcomeApp">Covid 19 data analysis</string>
+    <string name="loginMainScreen">Examine</string>
+    <string name="newCases">Number of new cases : </string>
+    <string name="confirmedTests">Confirmed tests : </string>
+    <string name="toHistory">History data</string>
+    <string name="popTest">Ratio of 1 m people (test) :</string>
+    <string name="popCase">Ratio of 1 m people (case) :</string>
+    <string name="population">Population :</string>
+    <string name="popDeath">Ratio of 1 m people (death) :</string>
+    <string name="time">Time :</string>
+    <string name="chooselanguage">Choose Language</string>
+    <string name="statisticsdata"> statistics data : </string>
+
+</resources>

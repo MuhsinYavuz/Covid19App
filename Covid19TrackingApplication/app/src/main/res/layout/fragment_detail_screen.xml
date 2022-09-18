@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           >
+
+            <ImageView
+                android:id="@+id/backToMainScreen"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="?attr/homeAsUpIndicator"
+                android:layout_marginRight="300dp"/>
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="73dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_share" />
+            />
+
+    </LinearLayout>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TURKIYE"
+                android:textSize="30sp"
+                android:gravity="center">
+            </TextView>
+
+
+
+
+        <TextView
+            android:id="@+id/continent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ASYA"
+            android:textSize="20sp"
+            android:gravity="center">
+        </TextView>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/totalTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/totalTest"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/totalDeath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/totalDeath"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/newDeath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newDeath"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/critical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/critical"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/activeCase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activeCase"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/recovered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recovered"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                >
+            </TextView>
+            <Button
+                android:id="@+id/toHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/toHistory">
+            </Button>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="327dp"
+            android:layout_height="203dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/covidback" />
+    </LinearLayout>
+    </layout>
